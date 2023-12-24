@@ -9,3 +9,4 @@ This project reads, writes and converts the rotating rectangular box representat
 Rotated rectangular boxes usually have two representations:
 1. Center point coordinates, width, height, and rotation angle are often saved in xml files.
 2. The coordinates of the four corner points of the rectangle are usually simply saved directly using a txt file (such as the ICDAR2015 data set)
+## Center-rotation angle representation
