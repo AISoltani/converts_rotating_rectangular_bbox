@@ -83,3 +83,6 @@ python RoLabelImg_Transform/xml_to_txt.py
 
 To visualize the txt file detection frame, run the visualize.py file, and the visualized image is saved in the visualized_img folder.
 
+```bash
+python RoLabelImg_Transform/visualize.py
+```
