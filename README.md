@@ -70,4 +70,16 @@ Put the image file that needs to be converted into the img folder, and the txt d
 python RoLabelImg_Transform/get_list.py --model='txt_to_xml' --input_path='./RoLabelImg_Transform/txt/'
 python RoLabelImg_Transform/txt_to_xml.py
 ```
+
+Put the image file that needs to be converted into the img folder, and the xml detection frame file into the xml folder. Run get_list.py to get the conversion list xml_to_txt_list.txt, and then run xml_to_txt.py to get the txt format tag with the same name in the txt folder. document
 ## xml to txt
+
+```bash
+python RoLabelImg_Transform/get_list.py --model='xml_to_txt' --input_path='./RoLabelImg_Transform/xml/'
+python RoLabelImg_Transform/xml_to_txt.py
+```
+
+## txt detection frame visualization
+
+To visualize the txt file detection frame, run the visualize.py file, and the visualized image is saved in the visualized_img folder.
+
