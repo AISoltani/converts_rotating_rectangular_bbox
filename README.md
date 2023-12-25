@@ -59,4 +59,8 @@ Theta is related to the angle angle. When angle is less than pi/2, theta is equa
 
 This program requires the following dependency packages:
 
+    python3.6
+    opencv-python 4.1.0.25
+    lxml 4.4.0
+
 
