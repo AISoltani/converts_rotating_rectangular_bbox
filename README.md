@@ -70,3 +70,4 @@ Put the image file that needs to be converted into the img folder, and the txt d
 python RoLabelImg_Transform/get_list.py --model='txt_to_xml' --input_path='./RoLabelImg_Transform/txt/'
 python RoLabelImg_Transform/txt_to_xml.py
 ```
+## xml to txt
