@@ -40,3 +40,17 @@ x1,y1,x2,y2,x3,y3,x4,y4,labelname
 
 Each line in the txt file is as shown above. x1, y1, x2, y2, x3, y3, x4, y4 are the horizontal and vertical coordinates of the four corner points respectively, and labelname is the category of the detection frame.
 ## Conversion between two representations
+The specific calculation formula is as follows:
+
+
+
+
+
+
+
+
+
+
+
+
+
