@@ -57,6 +57,6 @@ Theta is related to the angle angle. When angle is less than pi/2, theta is equa
 
 ## Scrip Prepare environment
 
-
+This program requires the following dependency packages:
 
 
