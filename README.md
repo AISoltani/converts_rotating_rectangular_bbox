@@ -30,3 +30,10 @@ Take the following detection frame as an example:
     </robndbox>
   </object>
 ```
+
+## Rectangular corner point coordinate representation.
+Take the following detection frame as an example:
+
+```bash
+x1,y1,x2,y2,x3,y3,x4,y4,labelname
+```
