@@ -64,3 +64,9 @@ This program requires the following dependency packages:
     lxml 4.4.0
 
 ## txt to xml
+Put the image file that needs to be converted into the img folder, and the txt detection frame file into the txt folder. Run get_list.py to get the conversion list txt_to_xml_list.txt, and then run txt_to_xml.py to get the xml format tag with the same name in the xml folder document
+
+```bash
+python RoLabelImg_Transform/get_list.py --model='txt_to_xml' --input_path='./RoLabelImg_Transform/txt/'
+python RoLabelImg_Transform/txt_to_xml.py
+```
