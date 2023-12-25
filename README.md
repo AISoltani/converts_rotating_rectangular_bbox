@@ -42,7 +42,16 @@ Each line in the txt file is as shown above. x1, y1, x2, y2, x3, y3, x4, y4 are 
 ## Conversion between two representations
 The specific calculation formula is as follows:
 
-
+```bash
+x1 = cx-w/2*cos(theta)+h/2*sin(theta)
+y1 = cy-h/2*cos(theta)-w/2*sin(theta)
+x2 = cx-w/2*cos(theta)+h/2*sin(theta)
+y2 = cy-h/2*cos(theta)+w/2*sin(theta)
+x3 = cx+w/2*cos(theta)-h/2*sin(theta)
+y3 = cy+h/2*cos(theta)-w/2*sin(theta)
+x4 = cx+w/2*cos(theta)+h/2*sin(theta)
+y4 = cy+h/2*cos(theta)+w/2*sin(theta)
+```
 
 
 
