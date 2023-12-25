@@ -55,11 +55,7 @@ y4 = cy+h/2*cos(theta)+w/2*sin(theta)
 
 Theta is related to the angle angle. When angle is less than pi/2, theta is equal to angle. When angle is greater than pi/2, theta is equal to angle-pi.
 
-
-
-
-
-
+## Scrip Prepare environment
 
 
 
