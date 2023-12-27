@@ -60,6 +60,9 @@ def rec_rotate(x, y, width, height, theta):
  
     return x1, y1, x2, y2, x4, y4,x3, y3
 
+## Def test
+
+
 def test(x,y,cx,cy,theta):
     x1_test = cx+(x-cx)*math.cos(theta)-(y-cy)*math.sin(theta)
     y1_test = cy+(y-cy)*math.cos(theta)+(x-cx)*math.sin(theta)
