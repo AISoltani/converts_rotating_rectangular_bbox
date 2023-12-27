@@ -118,6 +118,7 @@ for xml_folder in os.listdir(PATH):
             x1, y1, x2, y2, x4, y4,x3, y3 = rec_rotate(x, y, w, h, theta)
 
             ## With integer output
+        
         #    x1,y1,x2,y2,x4,y4,x3,y3 = int(x1),int(y1),int(x2),int(y2),int(x4),int(y4),int(x3),int(y3)
 
             ## With float output
