@@ -24,7 +24,7 @@ def rotate(angle, x, y):
     rotatey = math.cos(angle) * y + math.sin(angle) * x
     return rotatex, rotatey
 
-
+## Def xy rotate
 
 def xy_rorate(theta, x, y, centerx, centery):
     """
