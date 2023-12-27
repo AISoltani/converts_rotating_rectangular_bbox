@@ -38,6 +38,8 @@ def xy_rorate(theta, x, y, centerx, centery):
     r_x, r_y = rotate(theta, x - centerx, y - centery)
     return centerx+r_x, centery+r_y
 
+## Def rec rotate 
+
 def rec_rotate(x, y, width, height, theta):
     """
 ## Def Rotate Param of Oriented BBox
