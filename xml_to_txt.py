@@ -9,6 +9,9 @@ except ImportError:
 import sys
 import math
 
+
+## Get element function
+
 def rotate(angle, x, y):
     """
 ## Import Param from RoLabelImg
@@ -20,6 +23,8 @@ def rotate(angle, x, y):
     rotatex = math.cos(angle) * x - math.sin(angle) * y
     rotatey = math.cos(angle) * y + math.sin(angle) * x
     return rotatex, rotatey
+
+
 
 def xy_rorate(theta, x, y, centerx, centery):
     """
