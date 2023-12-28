@@ -136,4 +136,4 @@ for xml_folder in os.listdir(PATH):
             file_object.write(str(x1)+' '+str(y1)+' '+str(x2)+' '+str(y2)+' '+str(x4)+' '+str(y4)+' '+str(x3)+' '+str(y3)+' '+name+ ' '+ str(0))
             file_object.write('\n')
     file_object.close()
-## 
+## Writing on object Done!
