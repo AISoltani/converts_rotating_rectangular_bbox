@@ -77,8 +77,11 @@ PATH = '/home/af/Documents/Scripts/Tag-Tester/annotations/'
 
 ## Using for single file
 ## annotation_file = open("dahrankoli.xml")
+
 None_List=[]
+
 ###########################################################################################################
+
 for xml_folder in os.listdir(PATH):
 
     ### Take care inja esme file ra bar asase esme khode xml sakhtim va az esme toye xml estefade nakardim!!!! dar soorate niaz avaz konid.
@@ -100,7 +103,6 @@ for xml_folder in os.listdir(PATH):
         robndbox = object.find('robndbox')
         if robndbox==None:
             None_List.append(filename)
-
 
         else:
 
@@ -134,3 +136,4 @@ for xml_folder in os.listdir(PATH):
             file_object.write(str(x1)+' '+str(y1)+' '+str(x2)+' '+str(y2)+' '+str(x4)+' '+str(y4)+' '+str(x3)+' '+str(y3)+' '+name+ ' '+ str(0))
             file_object.write('\n')
     file_object.close()
+## 
