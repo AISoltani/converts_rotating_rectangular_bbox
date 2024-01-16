@@ -11,7 +11,7 @@ Rotated rectangular boxes usually have two representations:
 2. The coordinates of the four corner points of the rectangle are usually simply saved directly using a txt file (such as the ICDAR2015 Dataset)
 ## Center-rotation angle representation
 
-​
+
 Take the following detection frame as an example:
 
 ```bash
